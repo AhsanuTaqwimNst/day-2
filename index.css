@@ -1,0 +1,55 @@
+*,html{
+    text-decoration: none;
+    list-style-type:none;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    background-color: #f7f3f3;
+    height: 60px;
+   
+}
+
+.nav-left{
+    flex: 50%;
+  
+ 
+    
+}
+
+.nav-right{
+    flex: 50%;
+   
+    
+}
+
+.nav-right div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-right a{
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+ 
+}
+
+nav ul li{
+    padding-right: 25px;
+    
+}
